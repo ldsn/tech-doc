@@ -21,10 +21,8 @@ windows操作系统下需要安装 git for windows （git的命令行）
 
 第一步：在初始化 user.name user.email
 		git config --global
-
 		git config --global user.name 'edire'
 		git config --global user.name 'user.email'
-
 
 第二步：配置ssh-key 这是github上传的凭证
 
@@ -32,7 +30,8 @@ windows操作系统下需要安装 git for windows （git的命令行）
 
 ###－－－－－－－－－－－－－－第二课－－－－－－－－－－－－－－
 
-第三步：与库连接
+第三步：与远程库连接
+
 		git clone git@github.com:username/repository.git
 		git remote add origin git@github.com:username/repository.git
 		git remote add others git@github.com:username/repository.git
@@ -43,7 +42,6 @@ windows操作系统下需要安装 git for windows （git的命令行）
 		git fetch origin develop
 
 第五步：修改代码
-
 		git diff 
 		类似功能软件 beyond compare
 
