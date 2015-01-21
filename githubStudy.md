@@ -28,6 +28,9 @@ git 使用方法
 		git config --global user.name 'user.email'
 
 第二步：配置ssh-key 这是github上传的凭证
+		ssh key-gen
+		cat ~/.ssh/id-rsa.pub
+		把这串字符放到github的设置里面
 
 测试： ssh -T git@github.com
 
