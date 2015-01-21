@@ -3,21 +3,23 @@
 
 git 是什么 可以做什么？
 
-版本管理工具
+	版本管理工具，可以管理你代码的版本
 
-基于git的代码托管平台：github.com、git.oschina.com
+	基于git的代码托管平台：github.com、git.oschina.com
 
 git 使用方法
 
-教程地址：http://my.oschina.net/dxqr/blog/134811
-
-windows操作系统下需要安装 git for windows （git的命令行）
-
-地址：http://msysgit.github.io/
+	教程地址：
+		http://my.oschina.net/dxqr/blog/134811
+		http://rogerdudler.github.io/git-guide/index.zh.html
+	windows操作系统下需要安装 git for windows （git的命令行）
+		下载地址：http://msysgit.github.io/
 
 安装好以后 就可以在终端使用git了。
 
 在大家都有github账号的情况下
+
+打开你的 git bash
 
 第一步：在初始化 user.name user.email
 		git config --global
