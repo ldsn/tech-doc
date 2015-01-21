@@ -21,8 +21,9 @@ git 使用方法
 
 打开你的 git bash
 
-第一步：在初始化 user.name user.email
+第一步：在初始化
 		git config --global
+		
 		git config --global user.name 'edire'
 		git config --global user.name 'user.email'
 
@@ -89,6 +90,7 @@ git 使用方法
 ###－－－－－－－－－－－－－－第五课－－－－－－－－－－－－－
 
 merge 合并代码：
+	
 	git merge 
  	把B分支合并到A分支。
 		git checkout A
