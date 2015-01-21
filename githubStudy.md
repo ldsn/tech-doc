@@ -29,7 +29,7 @@ git 使用方法
 
 第二步：配置ssh-key 这是github上传的凭证
 
-		ssh key-gen
+		ssh-keygen
 		cat ~/.ssh/id-rsa.pub
 		把这串字符放到github的设置里面
 
