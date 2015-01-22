@@ -1,5 +1,5 @@
 ####课程地址
-	第一课：[http://pan.baidu.com/s/1kTKcCWv](http://pan.baidu.com/s/1kTKcCWv)
+	第一课：<http://pan.baidu.com/s/1kTKcCWv>
 ###－－－－－－－－－－－－－第一课－－－－－－－－－－－－－－－
 
 git 是什么 可以做什么？
