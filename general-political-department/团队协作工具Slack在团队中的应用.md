@@ -1,6 +1,8 @@
 #团队协作工具Slack在团队中的应用
 网址：https://slack.com
 
+注册加入地址：https://slack.com/signin   domain填写ldustu
+
 团队域名：https://ldustu.slack.com
 
 版本：web网页版、windows、mac、ios、android 貌似没有windows phone
