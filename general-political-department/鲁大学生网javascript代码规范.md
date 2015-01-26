@@ -117,4 +117,5 @@ boolean表达式中以下均为false:
 更多请参考：
 
 <http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml>
+
 <https://github.com/adamlu/javascript-style-guide>
