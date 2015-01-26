@@ -21,7 +21,7 @@
 
 4、文件规范
 
-统一使用UTF-8 编码 <meta charset="UTF-8">。
+	*统一使用UTF-8 编码 <meta charset="UTF-8">。
 
 5、资源引用
 
