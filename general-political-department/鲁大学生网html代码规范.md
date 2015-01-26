@@ -4,7 +4,7 @@
 ##规范细则（强制部分，需严格遵守）： 
 1、doctype
 	
-* 在html文档第一行添加标准模式声明 <!DOCTYPE html>。
+	* 在html文档第一行添加标准模式声明 <!DOCTYPE html>。
 
 2、语法
 
