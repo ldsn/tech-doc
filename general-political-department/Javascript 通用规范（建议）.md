@@ -7,7 +7,7 @@ category: Javascript
 ---
 
 # Javascript 通用规范（建议）
-## 为了更好的进行项目合作，让每个人的代码写出来不至于别人摸不到头脑，建议大家按照一下的规范进行编写代码
+#### 为了更好的进行项目合作，让每个人的代码写出来不至于别人摸不到头脑，建议大家按照一下的规范进行编写代码
         
         /**
          * 简介
@@ -69,7 +69,25 @@ category: Javascript
         /**
          * 如果页面需要暴露接口函数
          * 需要定义 一个对象 或者构造函数
+         * 一下是在fisp模块化环境下，如果不在fisp模块化环境下可不用鞋module.export
          */
         var _pub = {
-            xxx: function () {}
+            login: function () {},
+            isRun: true
         }
+        module.export = _pub;
+        
+        //或者创建构造函数
+        function test() {
+                this.num = 123;
+        }
+        test.prototype.func = function () {
+                var _this = this;  //要把this复制给 _this
+                console.log(_this.num);
+        }
+        module.export = test;
+        
+####具体用法
+
+（未完待续）
+        
