@@ -8,7 +8,10 @@ time: 2015-02-08 18:16:00
 
 模板引擎
 
+      var tpl = '<a href="<%=url%>"><%=string%></a>';
+      var data = {url:"http://www.ldustu.com/",string:"鲁大学生网"};
       ldev.tmpl(tpl, data);
+      //以上代码执行后将变为 <a href="http://www.ldustu.com">鲁大学学生网</a>
 
 事件监听
 
