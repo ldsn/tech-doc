@@ -42,14 +42,24 @@ git 使用方法
 
 第三步：与远程库连接
 
+		第一种方法
 		git clone git@github.com:username/repository.git
+		
+		第二种方法
+		git init
 		git remote add origin git@github.com:username/repository.git
+		当前目录新建一个新的仓库
 		git remote add others git@github.com:username/repository.git
 
 第四步：拉取代码
 		git pull origin develop
-
+			等同于
+			git fetch origin develop
+			git merge FETCH_HEAD
+			
 		git fetch origin develop
+		
+			
 
 第五步：修改代码
 		
