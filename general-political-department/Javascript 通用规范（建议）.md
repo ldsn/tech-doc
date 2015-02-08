@@ -75,7 +75,7 @@ category: Javascript
             login: function () {},
             isRun: true
         }
-        module.export = _pub;
+        module.exports = _pub;
         
         //或者创建构造函数
         function test() {
@@ -85,7 +85,7 @@ category: Javascript
                 var _this = this;  //要把this复制给 _this
                 console.log(_this.num);
         }
-        module.export = test;
+        module.exports = test;
         
 ####具体用法
 
