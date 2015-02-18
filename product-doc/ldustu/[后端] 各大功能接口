@@ -1,0 +1,200 @@
+核心目录树 
+|-Application
+  |-Common
+    |-Conf
+      |-config.php
+  |-Home
+    |-Common
+      |-function.php
+    |-Controller
+      |-ArticleController.class.php
+      |-CommentController.class.php
+      |-IndexController.class.php
+      |-LoginController.class.php
+      |-PublicController.class.php
+      |-RegisterController.class.php
+      |-UserController.class.php
+    |-Model
+      |-ArticleModel.class.php
+      |-Article_detialModel.class.php
+      |-ColumnModel.class.php
+      |-CommentModel.class.php
+      |-IndexModel.class.php
+      |-UserModel.class.php
+      
+功能及接口详解
+  Application下的common 目录下的function.php
+    function LoginStyle()  
+      //获取用户的登录方式;
+    function inject_check($sql_str)  
+      //防注入过滤;
+    function check_verify($code, $id = '')  
+      //验证码过滤函数;
+    function getRequestParam($request_name, $default_value = null, $method = "all")  
+      //安全获取get/post (抓取网页内容所用)
+  控制器（controller）功能详解
+   ---------------------------------------------------------------------
+    ArticleController.class.php
+      /*
+      *列表页获取文章接口
+      *需要传入 $startid(文章从第几条开始),$getnum(取几条),$cid(栏目id),$comStartId(评论从第几条开始),$comGetNum(取出评论数量)
+      *直接请求接口返回，从第0条数据，取出10篇文章，栏目为1，评论默认最新的3条
+      */
+      public function getArticle($startid = 0,$getnum = 10,$cid = 1,$comStartId = 0,$comGetNum = 3)
+      /*
+      *文章内容页
+      *传入文章id
+      *返回文章所有的信息
+      */
+      public function showArticle($aid)
+      /*
+      *发布文章页面
+      *从cookie取值 判断是否显示该页面
+      */
+      public function Article()
+      /*
+      *文章发布接口
+      *获取多个内容
+      *现存测试代码，删掉 简单内容，取消之后注释即可
+      *使用关联存储
+      */
+      public function publish()
+      /*
+      *抓取文章页面
+      *将表单提交到该页面 返回链接抓取内容
+      */
+      public function curlArticle()
+   ---------------------------------------------------------------------
+    CommentController.class.php
+    /*
+    *获取评论接口
+    *需要传入 $aid ,$startid,$count 
+    *无默认传入
+    */
+    public function getComment($aid,$startid,$count)
+    /*
+    *写入评论功能
+    *需传入 $uid,$aid,$content
+    */
+    public function commentin($uid,$aid,$content)
+    /*
+    *删除评论功能
+    *需要传入 $com_id 即评论ID
+    */
+    public function commentdelete($com_id)
+     ---------------------------------------------------------------------
+     IndexController.class.php
+     /*
+     *首页接口 
+     *紧提供了一个获取评论，接口，其余接口在其他控制器下，将在接下来的文档中说明
+     */
+     public function getColumn()
+     ---------------------------------------------------------------------
+     /*
+     *登录首页
+     *显示登录页面
+     */
+     public function index()
+     /*
+     *登录功能页
+     *需传入值 $username $password
+     */
+     public function login()
+     /*
+     *退出登录
+     */
+     public function logout()
+    --------------------------------------------------------------------- 
+     PublicController.class.php
+     /*
+     *验证码获取函数
+     */
+     public function verify($config=array('imageW'=>200,'imageH'=>50,'length'=>4,'useNoise'=>false,'codeSet'=>'0123456789'))
+     /*
+     *点赞接口
+     *需传入$uid,$aid
+     */
+     public function favour($uid,$aid)
+     --------------------------------------------------------------------- 
+     RegisterController.class.php
+     /*
+     *注册页面显示
+     */
+     public function index()
+     /*
+     *注册接口
+     *需传入$username,$password,$email,$qq
+     */
+     public function Register()
+     --------------------------------------------------------------------- 
+     UserController.class.php
+     /*
+     *用户中心页面
+     *功能接口待完善
+     */
+       public function index()
+       /*
+       *个人信息获取接口
+       *自带cookie检测，无需传值
+       */
+        public function userinfo()
+    模型类(Model)功能详解  // 模型类  封装了控制类使用的函数
+    --------------------------------------------------------------------- 
+    ArticleModel.class.php
+    /*
+    *关联表配置
+    */
+    protected $_link
+    /*
+    *文章内容页内容获取函数
+    *需传入$aid
+    */
+     public function articleArticle($aid)
+     /*
+     *发布文章函数
+     *传入控制器整合数据
+     */
+     public function publishArticle($data)
+     /*
+     *列表文章函数
+     *需求 传入由控制器接口限制
+     */
+     public function getArticle($startid,$getnum,$cid,$comStartId,$comGetNum)
+     --------------------------------------------------------------------- 
+     ColumnModel.class.php
+     /*
+     *获取全部栏目函数
+     */
+     public function getall()
+     ---------------------------------------------------------------------
+     CommentModel.class.php
+     /*
+     *评论函数封装
+     */
+     public function comment($uid,$aid,$content )
+     /*
+     *删除评论函数
+     */
+     public function deleteComment($com_id)
+     ---------------------------------------------------------------------
+     UserModel.class.php
+     /*
+     *获取用户名对应id
+     *函数封装
+     */
+    public function userid($username)
+    /*
+    *检查用户名是否重复
+    *函数封装
+    */
+    public function checkname($username)
+    /*
+    *检查邮箱是否合法
+    *函数封装
+    */
+    public function checkemail($email)
+    /*
+    *获取用户信息
+    *函数封装
+    */
+    public function userinfo($username)
