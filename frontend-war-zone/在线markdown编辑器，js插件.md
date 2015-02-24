@@ -1,4 +1,4 @@
-<div class="detail TextContent" id="p_fullcontent">
+<div>
 <p>
 	<strong>Editor.md</strong>是一个基于jQuery和<a target="_blank" href="http://www.oschina.net/p/codemirror">CodeMirror</a>构建的在线Markdown文档编辑器。
 </p>
@@ -78,75 +78,5 @@
 </p>
 <p>
 	javascript:
-</p>
-<div><div id="highlighter_219827" class="syntaxhighlighter  js"><div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="js plain">&lt;script&nbsp;src=</code><code class="js string">"../lib/jquery.min.js"</code><code class="js plain">&gt;&lt;/script&gt;</code></div><div class="line number2 index1 alt1"><code class="js plain">&lt;script&nbsp;src=</code><code class="js string">"../src/js/editormd.js"</code><code class="js plain">&gt;&lt;/script&gt;</code></div><div class="line number3 index2 alt2"><code class="js plain">&lt;script&nbsp;type=</code><code class="js string">"text/javascript"</code><code class="js plain">&gt;</code></div><div class="line number4 index3 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">$(</code><code class="js keyword">function</code><code class="js plain">()&nbsp;{</code></div><div class="line number5 index4 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js keyword">var</code>&nbsp;<code class="js plain">testEditor&nbsp;=&nbsp;editormd(</code><code class="js string">"test-editormd"</code><code class="js plain">,&nbsp;{</code></div><div class="line number6 index5 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">path&nbsp;:&nbsp;</code><code class="js string">'../lib/'</code></div><div class="line number7 index6 alt2"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">});</code></div><div class="line number8 index7 alt1"><code class="js spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="js plain">});</code></div><div class="line number9 index8 alt2"><code class="js plain">&lt;/script&gt;</code></div></div></td></tr></tbody></table></div></div>
-<blockquote>
-	<p>
-		Require.js的使用方法：<a href="https://git.oschina.net/pandao/editor.md/tree/master/examples/use-requirejs.html">https://git.oschina.net/pandao/editor.md/tree/master/examples/use-requirejs.html</a> 
-	</p>
-	<p>
-		Sea.js的使用方法：<a href="https://git.oschina.net/pandao/editor.md/tree/master/examples/use-seajs.html">https://git.oschina.net/pandao/editor.md/tree/master/examples/use-seajs.html</a> 
-	</p>
-</blockquote>
-<h4>
-	<a href="https://git.oschina.net/pandao/editor.md#%E4%BE%9D%E8%B5%96%E9%A1%B9%E7%9B%AE%E5%8F%8A%E6%84%9F%E8%B0%A2"></a>依赖项目及感谢
-</h4>
-<ul>
-	<li>
-		<p>
-			<a href="http://codemirror.net/">CodeMirror</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="https://github.com/chjj/marked">marked</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="http://jquery.com/">jQuery</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="http://fontawesome.io/">FontAwesome</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="https://github.com/sindresorhus/github-markdown-css">github-markdown.css</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="http://khan.github.io/KaTeX/">KaTeX</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="http://code.google.com/p/google-code-prettify/">prettify.js</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="http://raphaeljs.com/">Rephael.js</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="http://adrai.github.io/flowchart.js/">flowchart.js</a> 
-		</p>
-	</li>
-	<li>
-		<p>
-			<a href="http://bramp.github.io/js-sequence-diagrams/">sequence-diagram.js</a><span style="line-height:1.5;font-family:'sans serif', tahoma, verdana, helvetica;font-size:10pt;"></span> 
-		</p>
-	</li>
-</ul>
-<h4>
-	<a href="https://git.oschina.net/pandao/editor.md#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"></a>更新日志
-</h4>
-<p>
-	<a href="https://git.oschina.net/pandao/editor.md/blob/master/CHANGE.md">查看更新日志</a> 
 </p>
 		</div>
