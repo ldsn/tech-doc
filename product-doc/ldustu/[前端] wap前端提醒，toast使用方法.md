@@ -1,7 +1,9 @@
 ---
-title: [前端] wap前端提醒，toast使用方法
-time: 2015-03-07
+title: '[前端] wap前端提醒，toast使用方法'
+time: '2015-03-07'
 ---
+
+
     
     var toast = require('ldsn-wap:widget/toast/toast.js');
     
