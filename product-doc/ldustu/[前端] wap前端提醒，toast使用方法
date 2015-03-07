@@ -1,0 +1,11 @@
+---
+title: [前端] wap前端提醒，toast使用方法
+
+---
+
+	/**
+	 * 弹出
+	 * @param  {string} type  提示类型 success tip error
+	 * @param  {string} text  提示文本
+	 * @param  {bool} close 是否手动关闭
+	 */
