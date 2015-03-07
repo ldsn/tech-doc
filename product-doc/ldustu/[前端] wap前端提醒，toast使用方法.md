@@ -12,3 +12,4 @@ var toast = require('ldsn-wap:widget/toast/toast.js');
  * @param  {bool} close 是否手动关闭
  */
 toast(type, text, close);
+toast('seccess', '操作成功！', false)
