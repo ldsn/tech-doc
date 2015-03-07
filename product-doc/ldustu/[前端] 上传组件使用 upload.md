@@ -3,27 +3,27 @@ title: '[前端] 上传组件使用 upload'
 time: '2015-03-07'
 ---
 
-
-/**
- * 文件上传插件
- * @param  {string} btnId   上传按钮id
- * @param  {object} event   事件
- *                          FilesAdded
- *                          // 文件添加进队列后,处理相关的事情
- *                          BeforeUpload
- *                          文件上传前
- *                          UploadProgress
- *                          文件上传中，可做滚动条
- *                          FileUploaded
- *                          单个文件上传后
- *                          Error
- *                          文件上传错误
- *                          UploadComplete
- *                          文件列表上传结束
- *                          Key
- *                          文件名字，需要带目录 folderName/fileName.suffix
- * @param  {string} maxSize 上传最大限制 1mb 2mb
- */
+         
+         /**
+          * 文件上传插件
+          * @param  {string} btnId   上传按钮id
+          * @param  {object} event   事件
+          *                          FilesAdded
+          *                          // 文件添加进队列后,处理相关的事情
+          *                          BeforeUpload
+          *                          文件上传前
+          *                          UploadProgress
+          *                          文件上传中，可做滚动条
+          *                          FileUploaded
+          *                          单个文件上传后
+          *                          Error
+          *                          文件上传错误
+          *                          UploadComplete
+          *                          文件列表上传结束
+          *                          Key
+          *                          文件名字，需要带目录 folderName/fileName.suffix
+          * @param  {string} maxSize 上传最大限制 1mb 2mb
+          */
          
         var upload = require('common:widget/upload/upload.js');
         upload('upload-img',
