@@ -1,3 +1,9 @@
+---
+title: '[前端] 上传组件使用 upload'
+time: '2015-03-07'
+---
+
+
 /**
  * 文件上传插件
  * @param  {string} btnId   上传按钮id
