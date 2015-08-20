@@ -3,3 +3,4 @@
 * 持续集成, 持续部署 | <http://coolshell.cn/articles/7657.html>
 * 设计, Reeoo,web design inspiration,website gallery | <http://reeoo.com/>
 * 字体 | <https://github.com/powerline/fonts>
+* jquery, slider | <https://github.com/idiot/unslider>
