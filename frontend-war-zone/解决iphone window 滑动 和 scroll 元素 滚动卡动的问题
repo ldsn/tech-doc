@@ -1,0 +1,27 @@
+老大你上次解决 iphone 上下滑动 出现黑色不明区域的问题是怎么解决的？
+于业超  10:02:11
+啥意思？
+于业超  10:04:46
+是不是感觉window可以拖动？
+undifined  10:19:19
+恩
+于业超  10:20:04
+给body加position:absolute; top:0; bottom:0; left:0; right:0; overflow:hidden;
+于业超  10:20:05
+试试
+于业超  10:20:50
+但是这样在手机上有个问题，就是div中用overflow为scroll的时候，会感觉到卡顿。
+于业超  10:21:11
+你试试吧
+undifined  10:22:11
+对了 卡顿 有一个解决方案
+undifined  10:22:37
+    -webkit-overflow-scrolling: touch;
+于业超  10:22:43
+哦。
+于业超  10:22:46
+牛逼
+undifined  10:22:46
+给 scroll的元素 加这个
+于业超  10:23:15
+你把这个加到github的资料库里吧。
