@@ -25,3 +25,20 @@ undifined  10:22:46
 给 scroll的元素 加这个
 于业超  10:23:15
 你把这个加到github的资料库里吧。
+
+
+外加 ：
+
+
+    body.addEventListener('touchstart', function (e) {
+        e.preventDefault();
+    });
+    body.addEventListener('touchmove', function (e) {
+        e.preventDefault();
+    });
+    body.addEventListener('touchend', function (e) {
+        e.preventDefault();
+    });
+
+
+禁止冒泡
