@@ -5,3 +5,4 @@
 * 字体 | <https://github.com/powerline/fonts>
 * jquery, slider | <https://github.com/idiot/unslider>
 * Mobile Slider | <https://github.com/be-fe/iSlider>
+* Gitbook, git | <http://gitbook.liuhui998.com/>
