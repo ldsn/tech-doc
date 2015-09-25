@@ -4,3 +4,4 @@
 * 设计, Reeoo,web design inspiration,website gallery | <http://reeoo.com/>
 * 字体 | <https://github.com/powerline/fonts>
 * jquery, slider | <https://github.com/idiot/unslider>
+* Mobile Slider | <https://github.com/be-fe/iSlider>
