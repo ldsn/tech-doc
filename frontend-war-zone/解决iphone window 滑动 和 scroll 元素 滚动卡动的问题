@@ -33,12 +33,18 @@ undifined  10:22:46
     body.addEventListener('touchstart', function (e) {
         e.preventDefault();
     });
-    body.addEventListener('touchmove', function (e) {
-        e.preventDefault();
-    });
-    body.addEventListener('touchend', function (e) {
-        e.preventDefault();
-    });
 
 
 禁止冒泡
+
+
+方法2
+
+
+<body ontouchstart="event.preventDefault();">
+    
+</body>
+
+html, body {
+    height: 100%;
+}
