@@ -36,15 +36,3 @@ undifined  10:22:46
 
 
 禁止冒泡
-
-
-方法2
-
-
-<body ontouchstart="event.preventDefault();">
-    
-</body>
-
-html, body {
-    height: 100%;
-}
